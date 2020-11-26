@@ -27,9 +27,9 @@ function start() {
     const canvas_small = document.getElementById('canvas_small');
     const player_small = new EmotePlayer(canvas_small);
     // load emote data from URL
-    player_small.loadDataFromURL("data/emote_asobirin_small.emtbytes");
+    player_small.loadDataFromURL("data/emote_asobirin_normal.emtbytes");
     // set chara scale
-    player_small.scale = 1;
+    player_small.scale = 0.5;
     // play test timeline
     player_small.mainTimelineLabel = 'sample_全自動_test';
 
