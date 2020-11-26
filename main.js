@@ -29,7 +29,7 @@ function start() {
     // load emote data from URL
     player_small.loadDataFromURL("data/emote_asobirin_normal.emtbytes");
     // set chara scale
-    player_small.scale = 0.5;
+    player_small.scale = 0.6;
     // play test timeline
     player_small.mainTimelineLabel = 'sample_全自動_test';
 
