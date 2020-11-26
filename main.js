@@ -1,6 +1,6 @@
 function start() {
     // create hidden canvas for rendering
-    EmotePlayer.createRenderCanvas(512, 512);
+    EmotePlayer.createRenderCanvas(2048, 2048);
 
 /*
     // EmoteDevice is a class that manages shaders and GPU resources necessary for drawing Emote.
@@ -19,7 +19,7 @@ function start() {
     // load emote data from URL
     player.loadDataFromURL("data/emote_test2.emtbytes");
     // set chara scale
-    player.scale = 1;
+    player.scale = .5;
     // play test timeline
     player.mainTimelineLabel = 'sample_全自動_test';
 }
