@@ -19,7 +19,7 @@ function start() {
     // load emote data from URL
     player_nomal.loadDataFromURL("data/emote_asobirin_normal.emtbytes");
     // set chara scale
-    player_nomal.scale = 0.5;
+    player_nomal.scale = 1;
     // play test timeline
     player_nomal.mainTimelineLabel = 'sample_全自動_test';
 
