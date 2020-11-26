@@ -19,7 +19,7 @@ function start() {
     // load emote data from URL
     player.loadDataFromURL("data/emote_test2.emtbytes");
     // set chara scale
-    player.scale = 0.3;
+    player.scale = 1;
     // play test timeline
     player.mainTimelineLabel = 'sample_全自動_test';
 }
