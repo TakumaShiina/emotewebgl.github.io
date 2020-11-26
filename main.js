@@ -13,14 +13,26 @@ function start() {
     EmotePlayer.requireDevice();
 */
 
-    // create new player
-    const canvas = document.getElementById('canvas');
-    const player = new EmotePlayer(canvas);
+    // create new player nomal_size
+    const canvas_nomal = document.getElementById('canvas_nomal');
+    const player_nomal = new EmotePlayer(canvas_nomal);
     // load emote data from URL
-    player.loadDataFromURL("data/emote_test.emtbytes");
+    player_nomal.loadDataFromURL("data/emote_asobirin_normal.emtbytes");
     // set chara scale
-    player.scale = 1;
+    player_nomal.scale = 0.5;
     // play test timeline
-    player.mainTimelineLabel = 'sample_全自動_test';
+    player_nomal.mainTimelineLabel = 'sample_全自動_test';
+
+    // create new player small_size
+    const canvas_small = document.getElementById('canvas_small');
+    const player_small = new EmotePlayer(canvas_small);
+    // load emote data from URL
+    player_small.loadDataFromURL("data/emote_asobirin_small.emtbytes");
+    // set chara scale
+    player_small.scale = 1;
+    // play test timeline
+    player_small.mainTimelineLabel = 'sample_全自動_test';
+
+
 }
 
