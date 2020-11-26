@@ -17,9 +17,9 @@ function start() {
     const canvas = document.getElementById('canvas');
     const player = new EmotePlayer(canvas);
     // load emote data from URL
-    player.loadDataFromURL("data/emote_test2.emtbytes");
+    player.loadDataFromURL("data/emote_test.emtbytes");
     // set chara scale
-    player.scale = .5;
+    player.scale = 1;
     // play test timeline
     player.mainTimelineLabel = 'sample_全自動_test';
 }
