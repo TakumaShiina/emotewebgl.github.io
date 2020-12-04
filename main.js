@@ -1,6 +1,8 @@
 function start() {
     // create hidden canvas for rendering
     EmotePlayer.createRenderCanvas(2048, 2048);
+    EmotePlayer.maskMode = EmotePlayer.MaskMode.ALPHA;
+
 
 /*
     // EmoteDevice is a class that manages shaders and GPU resources necessary for drawing Emote.
