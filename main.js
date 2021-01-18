@@ -29,7 +29,7 @@ function start() {
     const canvas_small = document.getElementById('canvas_small');
     const player_small = new EmotePlayer(canvas_small);
     // load emote data from URL
-    player_small.loadDataFromURL("data/emote_asobirin_normal.emtbytes");
+    player_small.loadDataFromURL("data/emote_woman_quarter_210118.emtbytes");
     // set chara scale
     player_small.scale = 0.6;
     // play test timeline
